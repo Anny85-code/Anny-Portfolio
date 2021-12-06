@@ -1,0 +1,144 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    justify-content: space-between;
+    background-image: url("image/Header-bg@desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.abme {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+.contact-num {
+    display: flex;
+    flex-direction: column;
+}
+
+.other {
+    grid-template-columns: 1;
+    grid-gap: 10px;
+    align-items:flex-start;
+    order: 2;
+    align-content: center;
+}
+
+#anny {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+    background-color: rgb(75, 71, 71);
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.new {
+    display: grid;
+    grid-template-rows: auto;    
+}
+
+.flex1 {
+    justify-content: space-between;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    border-bottom: 1px solid black;
+}
+
+.work-experience {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.skill-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+.skill-wrapper1 {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.item5 {
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/ span 1;
+}
+
+.item5 ul {
+    gap: 10px;
+}
+
+#education2 {
+    margin-top: 78px;
+}
+
+#education1 {
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 3px;
+    bottom: 0;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #041d53;
+    color: white;
+}

@@ -1,0 +1,95 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-between;
+    background-image: url("image/Header-bg@desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+.about-me {
+    background-color: rgb(23, 18, 29);
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+}
+
+#anny {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: rgb(170, 148, 5);
+}
+
+ul {
+    list-style-type: none;
+}
+.other {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    align-items:flex-start;
+    order: 2;
+    align-content: center;
+    grid-column: 1 /span 2;
+    justify-content: space-between;
+    
+}
+
+.skill-wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.item7 {
+    display: none;
+}
+
+.item6 {
+    display: none;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 3px;
+    bottom: 0;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #041d53;
+    color: white;
+}
+
